@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E3C0A62F29FD09EA005D1804 /* Build configuration list for PBXProject "TrafficLights" */;
+			buildConfigurationList = E3C0A62F29FD09EA005D1804 /* Build configuration list for PBXProject "StackView" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E3C0A62F29FD09EA005D1804 /* Build configuration list for PBXProject "TrafficLights" */ = {
+		E3C0A62F29FD09EA005D1804 /* Build configuration list for PBXProject "StackView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3C0A64629FD09EB005D1804 /* Debug */,
