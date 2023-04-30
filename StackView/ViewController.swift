@@ -20,13 +20,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        paleCircle(of: greenLight)
+        paleCircle(of: yellowLight)
+        paleCircle(of: redLight)
+        
         changeLightButton.layer.cornerRadius = 15
     }
     
     override func viewDidLayoutSubviews() {
-        makePaleCircle(from: greenLight)
-        makePaleCircle(from: yellowLight)
-        makePaleCircle(from: redLight)
+        makeCircle(from: greenLight)
+        makeCircle(from: yellowLight)
+        makeCircle(from: redLight)
     }
     
     @IBAction func buttonPressed() {
@@ -45,9 +49,8 @@ class ViewController: UIViewController {
         }
     }
     
-    private func makePaleCircle(from light: UIView) {
+    private func makeCircle(from light: UIView) {
         light.layer.cornerRadius = light.bounds.width / 2
-        paleCircle(of: light)
     }
     private func paleCircle(of light: UIView) {
         light.alpha = 0.3
