@@ -35,15 +35,12 @@ class ViewController: UIViewController {
         switch countOfTap % 3 {
         case 1:
             redLight.alpha = 1
-            paleCircle(of: yellowLight)
             paleCircle(of: greenLight)
         case 2:
             yellowLight.alpha = 1
             paleCircle(of: redLight)
-            paleCircle(of: greenLight)
         default:
             greenLight.alpha = 1
-            paleCircle(of: redLight)
             paleCircle(of: yellowLight)
         }
     }
