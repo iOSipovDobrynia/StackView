@@ -35,7 +35,8 @@ class ViewController: UIViewController {
     
     @IBAction func buttonPressed() {
         countOfTap += 1
-        changeLightButton.setTitle("Next", for: .normal)
+        if changeLightButton.currentTitle == "Start" { changeLightButton.setTitle("Next", for: .normal)
+        }
         switch countOfTap % 3 {
         case 1:
             redLight.alpha = 1
